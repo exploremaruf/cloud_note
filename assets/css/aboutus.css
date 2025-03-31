@@ -1,0 +1,127 @@
+/* aboutus.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* navsection */
+nav {
+  background-color: #343a40; /* Dark background */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+  list-style: none;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #17a2b8; /* Bootstrap primary color */
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.form-inline .form-control {
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
+
+.form-inline .btn {
+  margin-left: 5px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #28a745;
+  background-color: #28a745;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.form-inline .btn:hover {
+  background-color: #218838;
+}
+
+/* About Section */
+.about {
+  padding: 2rem 0;
+  background-color: #e9ecef;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+/* Why Use Section */
+.why-use {
+  padding: 2rem 0;
+}
+
+.why-use h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.why-use p {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.why-use ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.why-use li {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+/* Contact Us Section */
+.contact-us {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+}
+
+.contact-us h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact-us p {
+  text-align: center;
+  margin: 0.5rem 0;
+}

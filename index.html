@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Cloud Note</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="./index.html" class="nav__logo">
+               <img src="./assets/img/logo.png"  alt="Logo">
+           </a>
+           
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="./index.html" class="nav__link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="./aboutus.html" class="nav__link">About Us</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Note Board </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="./SignUp_LogIn_Form.html" class="nav__link" aria-label="User Profile">
+                         <i class="fa fa-user"></i>
+                     </a>
+                 </li>
+                 
+
+                  
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__actions">
+               <!-- Search button -->
+               <i class="ri-search-line nav__search" id="search-btn"></i>
+
+               
+
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="What are you looking for?" class="search__input">
+         </form>
+
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+  
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <img src="./assets/img/bg-image.jpg" alt="image" class="main__bg">
+
+         <div class="mcontainer">
+            <h2>Welcome to NoteShare</h2>
+            <p>Manage and share your notes with ease.</p>
+            <a href="./SignUp_LogIn_Form.html" class="cta">Get Started</a>
+        </div>
+      </main>
+      
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
